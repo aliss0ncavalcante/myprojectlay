@@ -3,3 +3,180 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --body-bg-color: #22212c;
+  --text-color: #837e9f;
+  --bg-cards: #302f3d;
+  --bg-techs: #cb92b1;
+}
+
+.rectangle {
+  border-radius: 20px;
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+body * {
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+body {
+  background: var(--body-bg-color);
+}
+
+#portfolio {
+  border: 5px dashed red;
+  width: 1440px;
+  height: 1767px;
+}
+
+#project-1 {
+  border: 1px dashed blue;
+  position: absolute;
+  margin: 157px 531px 1424px 448px;
+  width: 461px;
+  height: 186px;
+  flex-shrink: 0;
+}
+
+#project-1 .rectangle {
+  width: 461px;
+  height: 186px;
+  flex-shrink: 0;
+}
+
+#project-2 {
+  border: 1px dashed green;
+  position: absolute;
+  margin: 157px 40px 1424px 939px;
+  width: 461px;
+  height: 186px;
+  flex-shrink: 0;
+}
+
+#project-2 .rectangle {
+  width: 461px;
+  height: 186px;
+  flex-shrink: 0;
+}
+
+#post {
+  border: 1px dashed yellow;
+  position: absolute;
+  margin: 489px 40px 1077px 448px;
+  width: 952px;
+  height: 201px;
+  flex-shrink: 0;
+}
+
+#post .rectangle {
+  width: 952px;
+  height: 201px;
+  flex-shrink: 0;
+}
+
+#recent-posts {
+  border: 1px dashed orangered;
+  position: absolute;
+  margin: 373px 40px 1308px 448px;
+  width: 952px;
+  height: 86px;
+  flex-shrink: 0;
+}
+
+#recent-posts .rectangle {
+  width: 952px;
+  height: 86px;
+  flex-shrink: 0;
+}
+
+#my-projects {
+  border: 1px dashed purple;
+  position: absolute;
+  margin: 40px 40px 1641px 448px;
+  width: 952px;
+  height: 86px;
+  flex-shrink: 0;
+}
+
+#my-projects .rectangle {
+  width: 952px;
+  height: 86px;
+  flex-shrink: 0;
+}
+
+#education {
+  border: 1px dashed blue;
+  position: absolute;
+  margin: 1357px 1052px 58px 40px;
+  width: 348px;
+  height: 352px;
+  flex-shrink: 0;
+}
+
+#education .rectangle {
+  width: 348px;
+  height: 352px;
+  flex-shrink: 0;
+}
+
+#my-experiences {
+  border: 1px dashed blueviolet;
+  position: absolute;
+  margin: 978px 1052px 440px 40px;
+  width: 348px;
+  height: 349px;
+  flex-shrink: 0;
+}
+
+#my-experiences .rectangle {
+  width: 348px;
+  height: 349px;
+  flex-shrink: 0;
+}
+
+#technologies {
+  border: 1px dashed yellowgreen;
+  position: absolute;
+  margin: 740px 1052px 819px 40px;
+  width: 348px;
+  height: 208px;
+  flex-shrink: 0;
+}
+
+#technologies .rectangle {
+  width: 348px;
+  height: 208px;
+  flex-shrink: 0;
+}
+
+#links {
+  position: absolute;
+  border: 1px dashed green;
+  margin: 362px 1052px 1057px 40px;
+  width: 348px;
+  height: 348px;
+  flex-shrink: 0;
+}
+
+#links .rectangle {
+  width: 348px;
+  height: 348px;
+  flex-shrink: 0;
+}
+
+#profile {
+  border: 1px dashed orchid;
+  position: absolute;
+  margin: 40px 1052px 1435px 40px;
+  width: 348px;
+  height: 292px;
+  flex-shrink: 0;
+}
+
+#profile .rectangle {
+  width: 348px;
+  height: 292px;
+  flex-shrink: 0;
+}
